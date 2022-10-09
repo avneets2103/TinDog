@@ -1,2 +1,2 @@
 # TinDog
-Its a basic website made while leraning BootStrap
+Its a basic website made while learning BootStrap
