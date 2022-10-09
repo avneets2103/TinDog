@@ -1,0 +1,193 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title section */
+#title{
+    background-color: #ff4c68;
+}
+
+.title_image{
+    margin-left: 15%;;
+    width: 30%;
+    transform: rotate(25deg);
+}
+
+@media (max-width:1028px) {
+    .title_image{
+        display: none;
+    }
+}
+
+.left{
+    text-align: center;
+}
+
+.heading{
+    position: relative;
+    bottom:50px;
+    margin:10px;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-family: 'Kanit', sans-serif;
+    color:white;
+}
+
+.apple{
+    margin-right:10px;
+}
+
+.apple:hover{
+    background-color: aliceblue;
+    color:black;
+    border-color: aliceblue;
+}
+
+/* Navbar section */
+nav{
+    background-color: #ff4c68;
+    padding:10px 20px 50px 20px;
+}
+
+.name{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+
+.list{
+    color:white;
+}
+
+/* Feature section */
+#feature{
+    position: relative;
+    background-color: white;
+    padding-top:8%;
+    padding-bottom:8%;
+    width:80%;
+    text-align:center;
+    margin:auto;
+}
+
+.icon{
+    color:#ff4c68;
+    margin:40px;
+}
+.icon:hover{
+    color:rgb(158, 157, 157);
+}
+
+h2{
+    font-weight:900;
+}
+
+/* testinomials and media */
+#testinomials_and_media{
+    background-color: #ff4c68;
+}
+
+/* testinomials */
+.testimonials{
+    padding:5% 15%;
+    text-align: center;
+    margin:auto;
+}
+
+.profile_img{
+    border-radius: 100%;
+    width:8%;
+}
+
+.review{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+.carousel-indicators{
+    position:relative;
+    top:300px;
+}
+
+/* Press */
+#press{
+    width:70%;
+    margin:auto;
+}
+
+.media_img{
+    padding:65px;
+}
+
+@media (max-width:1028px) {
+    .media_img{
+        padding:20px;
+    }
+}
+
+/* pricing */
+#pricing{
+    padding:100px;
+    margin:auto;
+    padding:5% 10%;
+    text-align:center;
+    width: 80%;;
+}
+
+.plan{
+    width:80%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.plan_name{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    color:rgb(115, 113, 113);
+    position: relative;
+    top:8px;
+}
+
+.plan_section{
+    margin:50px 0;
+}
+
+/* CTA */
+#cta{
+    padding:5%;
+    text-align: center;
+    background-color: #ff4c68;
+    color:white;
+}
+
+.tag_line{
+    margin-bottom: 3%;
+    font-family: 'Sacramento', cursive;
+    font-size:3rem;
+    font-weight:lighter;
+    color:white;
+    text-decoration: none;
+}
+
+.tag_line:hover{
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+}
+
+/* copyright */
+#copyright{
+    color:rgb(115, 113, 113);
+    padding:7%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.social{
+    margin:0 5px;
+}
+
+.social:hover{
+    padding:5px;
+}
+
